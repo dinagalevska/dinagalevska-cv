@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.pocetok
+{
+    height: 100vh;
+    width: 100%;
+    background: white ;
+}
+nav
+{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top: 10px;
+    padding-left:7% ;
+    padding-right: 7%;
+}
+
+.image
+{
+    width: 70%;
+    float: right;
+
+}
+.image img
+{
+    position: relative;
+    left: 60%;
+    transform: translateX(-20%);
+    transition: bottom 1s,left 1s;
+}
+
+#slika2
+{
+    width: 33%;
+    margin-top: 2%;
+    border-radius: 60%;
+}
+
+.image:hover #slika2
+{
+    left: 40%;
+}
+.logo
+{
+    color: black;
+    font-size: 35px;
+    letter-spacing:1px ;
+
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover
+{
+    color:#f9004e;
+    transition:.4s;
+}
+.content
+{
+    position: absolute;
+    top: 43%;
+    left: 8%;
+    transform: translateY(-50%) ;
+}
+h2
+{
+    color: #f9004d;
+    margin: 20px 0 20px;
+    font-size: 68px;
+}
+h3
+{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+h4
+{
+    color: blue;
+    letter-spacing:2px;
+font-size: 20px;
+}
+.newslatter form
+{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding:14px 130px 14px 15px ;
+    border:2px solid #f9004d;
+    outline: none;
+    border-radius: 50px;
+}
+
+.text
+{
+    width: 95%;
+    max-width: 100%;
+    padding-left:7% ;
+    padding-right: 7%;
+    top: 50%;
+
+}
+button
+{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent ;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover
+{
+
+    border:1px solid;
+    cursor: pointer;
+
+}
+.hireme
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button2
+{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border:13px solid transparent ;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+
+    transition: .4s;
+    justify-content: center;
+    margin-left: 50%;
+}
+.fname
+{
+    width: 300px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 19px;
+    justify-content: center;
+}
+.fname1
+{
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 19px;
+}
+footer
+{
+    position: fixed;
+    margin-top: 29px;
+    padding-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background-image: linear-gradient(white,whitesmoke,antiquewhite,wheat);
+    justify-content: center;
+}
+.social
+{
+    display: flex;
+}
+.social a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: black;
+    text-decoration: none;
+}
+#rightnextto
+{
+    width:50%;
+    float: left;
+    position: relative;
+}
+li
+{
+    list-style-type: none;
+   letter-spacing: 1px;
+    font-size:19px;
+    line-height: 29px;
+}
+.sliki
+{
+    float: right;
+    width: 50%;
+}
+.sliki img
+{
+    position: relative;
+    transform: translateX(-20%);
+    transition:right 15s;
+}
+
+.sliki:hover #change
+{
+    right: 10%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.sliki:hover #change2
+{
+    right:10%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.social a:hover
+{
+    transform: scale(1.2);
+    transition: .2s;
+}
+#mains
+{
+    width: 45%;
+    float: left;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-left:3% ;
+
+
+}
+.main2
+{
+    float: right;
+    width: 45%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
